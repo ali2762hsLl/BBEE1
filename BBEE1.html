@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>beIN SPORTS 1</title>
+  <style>
+    body {
+      background-color: #121212;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 15px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .card h2 {
+      margin: 15px 0 10px;
+      font-size: 22px;
+    }
+    .btn {
+      background-color: #8a2be2;
+      color: white;
+      padding: 10px 20px;
+      margin: 8px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #6a1bbd;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/BeIN_Sports_logo.svg/2560px-BeIN_Sports_logo.svg.png" alt="beIN SPORTS 1 Logo">
+    <h2>beIN SPORTS 1</h2>
+    <a href="https://live12.ir/sp/hls2.html?link=https://wo.cma.footballii.ir/hls2/b1.m3u8&title=bein1" target="_blank">
+      <button class="btn">تشغيل</button>
+    </a>
+    <button class="btn" onclick="window.location.reload();">تحديث</button>
+  </div>
+</body>
+</html>
